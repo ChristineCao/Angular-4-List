@@ -1,3 +1,5 @@
+Written by Christine Cao
+
 A web page displaying an item list in Angular 4 that allows a user to  add one item into the list and remove one item from the list.
 This project was generated with NodeJS, Angular-CLI, Angular 4, Typescript, HTML, CSS.
 
