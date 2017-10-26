@@ -1,0 +1,16 @@
+
+<div class = "main">
+  <h1 >Angular 4 simple list <br>
+    click Add button to add an item <br> 
+    click "X" to remove an item</h1>
+  <div class="addItem">
+    <input [(ngModel)] = "newItem" placeholder="Please add one item to the list" class="addText">
+    <button (click) = "pushItem()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor="let oneItem of items; let idx = index">
+      {{oneItem}}
+     <span (click) = "removeItem(idx)">X</span>
+    </li>
+  </ul>
+</div>

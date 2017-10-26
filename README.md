@@ -1,20 +1,27 @@
-Written by Christine Cao
+# ListDemo
 
-A web page displaying an item list in Angular 4 that allows a user to  add one item into the list and remove one item from the list.
-This project was generated with NodeJS, Angular-CLI, Angular 4, Typescript, HTML, CSS.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
-The steps to run the list demo:
+## Development server
 
-1. Install the latest version of NodeJS for your platform https://nodejs.org/en/download/
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-2. Install Angular CLI using npm: npm install -g @angular/cli
+## Code scaffolding
 
-3. Download the file list-demo.zip and unzip it in your local machine.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-4. From a command prompt change your current directory to the project root folder. This is the folder that contains the package.json file and the /src and /e2e folders: cd [PATH_WHERE_YOU_PUT_REPOSITORY]/list-demo
+## Build
 
-5. From the project root folder install all depenedencies using npm: npm instal
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-6. From the project root folder start the AngularCLI webserver that runs in NodeJS (assume to use port 4200): ng serve --port 4200
+## Running unit tests
 
-7. From your browser navigate to the following URL (assume to use port 4200): http://localhost:4200
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
